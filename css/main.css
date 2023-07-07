@@ -1,0 +1,714 @@
+/* Font Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    outline: none;
+}
+
+button,
+a {
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+/* Header series */
+.header {
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+
+}
+
+.main-right {
+    margin-bottom: -5px;
+}
+
+.header-wrap {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.header-card__32 {
+    position: absolute;
+    width: 206px;
+    height: 90px;
+    border-radius: 24px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: -441px;
+    left: 486px;
+    box-shadow: 10px 8px 3px 0px rgb(46, 85, 169);
+}
+
+.header-card__47 {
+    width: 183px;
+    height: 90px;
+    border-radius: 24px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -201px;
+    left: 429px;
+    box-shadow: 10px 8px 3px 0px rgb(46, 85, 169);
+}
+
+.card-name {
+    display: flex;
+    gap: 4px;
+}
+
+.card-title__overyal {
+    color: #023047;
+    font-family: "Poppins";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.card-text__overlay {
+    color: #023047;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.card-main__bg {
+    position: relative;
+}
+
+.card-main__bg::after {
+    position: absolute;
+    contain: "";
+    width: 206px;
+    height: 97px;
+    left: 10px;
+    top: 10px;
+    border-radius: 24px;
+    background: red;
+    z-index: 10;
+}
+
+.header-nav {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.header-nav__icon {
+    font-family: "Poppins";
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-nav__btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    border: none;
+    gap: 10px;
+    border-radius: 24px;
+    background: #023047;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-main__wrap {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-left {
+    margin-top: 124px;
+}
+
+.main-title {
+    font-family: "Raleway";
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 125%;
+    max-width: 457px;
+    margin-bottom: 18px;
+}
+
+.main-text {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    max-width: 457px;
+    margin-bottom: 36px;
+}
+
+.main-btn {
+    cursor: pointer;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 59px;
+    gap: 10px;
+    border-radius: 24px;
+    background: #DA722C;
+    border: none;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.main-btn span {
+    padding-top: 3px;
+}
+
+.main-right {
+    margin-top: 85px;
+}
+
+/* Header series */
+
+/* Student section */
+.students-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 135px 0 144px 0;
+    align-items: center;
+}
+
+.students-cards__info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.student-color__long {
+    position: relative;
+}
+
+.student-color__long::before {
+    position: absolute;
+    content: "";
+    width: 28px;
+    height: 546px;
+    border-radius: 24px;
+    background: #023047;
+    top: -555px;
+    left: 103px;
+    z-index: -1;
+}
+
+.student-info-jane {
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+    width: 442px;
+}
+
+.jane-text {
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: #6F7DFB;
+    max-width: 442px;
+    height: 102px;
+}
+
+.jane-text p {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.jane-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jane-info__name {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.jane-username {
+    color: #023047;
+    font-family: "Raleway";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.jane-furstname {
+    color: #023047;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.jane-info__img {
+    transform: translateY(-15px);
+}
+
+/*  */
+.student-info-jacob {
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 9px 36px 0px rgba(0, 0, 0, 0.20);
+    width: 442px;
+    margin-left: 50px;
+}
+
+.jacob-text {
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 24px;
+    background: #DA722C;
+    max-width: 442px;
+}
+
+.jacob-text p {
+    color: #FFF;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.jacob-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jacob-info__name {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.jacob-username {
+    color: #023047;
+    font-family: "Raleway";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.jacob-furstname {
+    color: #023047;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+.jacob-info__img {
+    transform: translateY(-15px);
+}
+
+.students-title {
+    font-family: "Raleway";
+    color: #023047;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 125%;
+    max-width: 529px;
+    margin-bottom: 18px;
+}
+
+.students-text {
+    font-family: "Poppins";
+    color: #023047;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 200%;
+    max-width: 457px;
+    margin-bottom: 36px;
+}
+
+.gd-btn {
+    cursor: pointer;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    line-height: 59px;
+    gap: 10px;
+    border-radius: 24px;
+    background: #DA722C;
+    border: none;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Student section */
+
+
+/* Courses srction */
+.courses-wrap {
+    position: relative;
+}
+
+.Courses {
+    background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+}
+
+.courses-title {
+    display: flex;
+    justify-content: center;
+}
+
+.courses-title h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    margin: 70px 0 56px 0;
+}
+
+.curses-cards {
+    display: flex;
+    gap: 73px;
+    padding-bottom: 169px;
+}
+
+.curses-info__left {
+    display: flex;
+    width: 526px;
+    padding: 0px 32px;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.curses-info__left img {
+    transform: translateY(-4px);
+}
+
+.curses-info__game {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+.curses-hours__unity {
+    display: flex;
+}
+
+.curses-name__unity {
+    color: #023047;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.curses-name__game {
+    color: #023047;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+}
+
+.curses-hours__game {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #023047;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    transform: translateY(33px);
+}
+
+.curses-time {
+    display: flex;
+    width: 100px;
+    gap: 5px;
+}
+
+.curses-number {
+    transform: translateY(-1px);
+
+}
+
+.curses-top__color {
+    position: relative;
+}
+
+.curses-top__color::before {
+    position: absolute;
+    content: "";
+    border-radius: 24px;
+    background: #023047;
+    width: 462px;
+    height: 8px;
+    top: 38px;
+}
+
+.curses-info__right {
+    display: flex;
+    width: 526px;
+    padding: 0px 32px;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 24px;
+    background: #FFF;
+}
+
+.curses-bottom__color {
+    position: relative;
+}
+
+.curses-bottom__color::before {
+    position: absolute;
+    content: "";
+    border-radius: 24px;
+    background: #023047;
+    width: 462px;
+    height: 8px;
+    top: -7px;
+}
+
+.student-button {
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+}
+
+/* Courses srction */
+
+/* APP section */
+
+.app {
+    padding: 100px 0;
+}
+
+.app-title {
+    color: #023047;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 13px;
+}
+
+.app-text {
+    color: #023047;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    margin-bottom: 45px;
+}
+
+.app-wrap__icons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.app-store {
+    gap: 14px;
+    display: flex;
+    width: 310px;
+    padding: 20px 31px;
+    align-items: center;
+    gap: 14px;
+    background: #000;
+}
+
+.goole-play {
+    gap: 14px;
+    display: flex;
+    width: 310px;
+    padding: 20px 31px;
+    align-items: center;
+    gap: 14px;
+    background: #000;
+}
+
+.app-name {
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+}
+
+/* APP section */
+
+/* Fotoer series */
+
+.footer {
+    padding: 70px 0;
+    background: #070917;
+}
+
+.footer-wrap__info {
+    display: flex;
+    gap: 156px;
+}
+
+
+.global-title {
+    color: #DA722C;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 200%;
+    margin-bottom: 14px;
+}
+
+.footer-quick__items {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.global-cins {
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    transform: translateX(30px);
+}
+
+.footer-curse__items {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.footer-contact__web {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 26px;
+}
+
+.footer-form {
+    position: relative;
+    transform: translateX(30px);
+}
+
+.footer-form input {
+    width: 521px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 27px;
+}
+
+.footer-input__btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 135px;
+    height: 30px;
+    border-radius: 8px;
+    background: #023047;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    right: 8px;
+    top: 5px;
+}
+
+.footer-bottom-text {
+    display: flex;
+    justify-content: start;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 200%;
+    margin: 32px 0 70px 0;
+}
+
+/* Fotoer series */
