@@ -32,33 +32,10 @@ a {
     margin: 0 auto;
 }
 
-/* Gloo */
-.gd-btn {
-    cursor: pointer;
-    padding: 16px 32px;
-    display: flex;
-    align-items: center;
-    line-height: 59px;
-    gap: 10px;
-    border-radius: 24px;
-    background: #DA722C;
-    border: none;
-    color: #FFF;
-    font-family: "Poppins";
-    font-size: 18px;
-    font-weight: 700;
-    line-height: normal;
-    transition: 0.3s;
-}
-
-.gd-btn:hover {
-    background: #023047;
-}
-/* Gloo */
-
 /* Header series */
 .header {
     background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+
 }
 
 .main-right {
@@ -66,12 +43,24 @@ a {
 }
 
 .header-wrap {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 40px 0;
 }
+
+.header-pos__fix {
+    display: none;
+    top: -20px;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    border-radius: 24px;
+    background: #6F7DFB;
+    z-index: 10;
+    box-shadow: -2px 15px 24px 4px rgba(34, 60, 80, 0.11);
+}
+
 
 .header-card__32 {
     position: absolute;
@@ -239,7 +228,85 @@ a {
     margin-top: 85px;
 }
 
+.gd-btn {
+    cursor: pointer;
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    line-height: 59px;
+    gap: 10px;
+    border-radius: 24px;
+    background: #DA722C;
+    border: none;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+.gd-btn:hover {
+    background: #023047;
+}
+
 /* Header series */
+/* Burger start */
+#header-close:checked+.header-mobil {
+    top: 0;
+}
+
+.header-burger {
+    display: none;
+}
+
+.header-close img {
+    cursor: pointer;
+}
+
+.header-mobil {
+    position: absolute;
+    background: #070917;
+    height: 100%;
+    width: 100%;
+    top: -230%;
+    display: none;
+    transition: .5s;
+}
+
+.header-burger__close {
+    position: absolute;
+    right: 0;
+    padding: 45px 40px 0 0;
+}
+
+.header-menu__nav {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.header-mobil__btn {
+    display: inline-flex;
+    padding: 12px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 24px;
+    background: #DA722C;
+    color: #FFF;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+/* Burger end */
 
 /* Student section */
 .students-wrap {
@@ -747,3 +814,32 @@ a {
 }
 
 /* Fotoer series */
+
+
+/* Medya */
+@media (max-width:1250px) {
+    .container {
+        max-width: 90vw;
+    }
+    .header-pos__fix{
+        display: none;
+    }
+}
+
+@media(max-width:872px) {
+    .header-mobil {
+        display: block;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .header-burger {
+        display: block;
+    }
+
+    .header-menu__buger {
+        display: block;
+    }
+}
